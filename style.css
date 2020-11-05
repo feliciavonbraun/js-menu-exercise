@@ -1,0 +1,42 @@
+body {
+    margin: 0; 
+}
+
+header {
+    background-color: pink;
+    height: 3rem;
+    padding: 0 1rem; 
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: height 300ms;
+    overflow: hidden;
+}
+
+header i {
+    cursor: pointer;
+}
+
+main {
+    margin-top: 3rem;
+    padding: 1rem;
+}
+
+.top-menu {
+    height: 3rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
